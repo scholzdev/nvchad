@@ -2,6 +2,21 @@ return {
   defaults = { lazy = true },
   install = { colorscheme = { "nvchad" } },
 
+  -- Disable rocks support to avoid luarocks warnings
+  rocks = {
+    enabled = false,
+  },
+
+  ui = {
+    icons = {
+      ft = "",
+      lazy = "󰂠 ",
+      loaded = "",
+      not_loaded = "",
+    },
+  },efaults = { lazy = true },
+  install = { colorscheme = { "nvchad" } },
+
   ui = {
     icons = {
       ft = "",

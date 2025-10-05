@@ -89,6 +89,9 @@ map("n", "<leader>sd", "<cmd>Telescope diagnostics<cr>", { desc = "Search diagno
 -- Resume last search
 map("n", "<leader>sr", "<cmd>Telescope resume<cr>", { desc = "Search resume" })
 
+-- Theme switcher
+map("n", "<leader>th", "<cmd>Telescope themes<cr>", { desc = "Change theme" })
+
 -- Search recently opened files
 map("n", "<leader>s.", "<cmd>Telescope oldfiles<cr>", { desc = "Search recent files" })
 

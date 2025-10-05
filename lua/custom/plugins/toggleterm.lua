@@ -96,7 +96,7 @@ return {
 
       -- General terminal keymaps
       vim.keymap.set('n', '<leader>tf', '<cmd>ToggleTerm direction=float<cr>', { desc = "Float terminal" })
-      vim.keymap.set('n', '<leader>th', '<cmd>ToggleTerm size=10 direction=horizontal<cr>', { desc = "Horizontal terminal" })
+      vim.keymap.set('n', '<leader>tH', '<cmd>ToggleTerm size=10 direction=horizontal<cr>', { desc = "Horizontal terminal" })
       vim.keymap.set('n', '<leader>tv', '<cmd>ToggleTerm size=80 direction=vertical<cr>', { desc = "Vertical terminal" })
 
       -- Terminal mode keymaps
